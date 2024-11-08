@@ -21,3 +21,21 @@ git commit -m "Commit message: brief description"
 git status
 git log
 ```
+### 4. Create branch
+```
+git branch dir/readme/steps-4-to-6
+git branch
+```
+### 5. Checkout branch
+```
+git checkout dir/readme/steps-4-to-6
+git status
+```
+### 6. Merge to master
+```
+git checkout master
+git status
+git merge dir/readme/steps-4-to-6
+git status
+git log
+```
